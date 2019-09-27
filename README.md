@@ -121,6 +121,10 @@ You can use a command-line utility, such as cURL or wget, to perform the HTTP re
     * Delete the customer instance with id 123
   
              curl -X DELETE http://localhost:8181/cxf/crm/customerservice/customers/123
+	     
+	     ### Swagger API is available at:
+	     
+	     http://localhost:8181/cxf/crm/swagger.json
 
 
 ### Changing /cxf servlet alias
